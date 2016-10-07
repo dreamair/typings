@@ -250,45 +250,45 @@ interface TabSettings {
 
 interface JQuery {
 
-    accordion (params?: AccordionSettings):void;
-    accordion (behavior: string, ...args: any[]): void;
-    api       (params?: ApiSettings):void;
-    checkbox  (params?: any):void;
-    checkbox  (behavior: string, ...args: any[]): void;
-    colorize  (params?:any):void;
-    dimmer    (params?:any):void;
-    dimmer  (behavior: string, ...args: any[]): void;
-    dropdown  (params?:any):void;
-    dropdown  (behavior: string, ...args: any[]): void;
-    embed     (params?:any):void;
-    embed  (behavior: string, ...args: any[]): void;
-    form      (params?:any):void;
-    modal     (params?: any):void;
-    modal     (behavior: string, ...args: any[]): void;
-    nag       (params?:any):void;
-    nag  (behavior: string, ...args: any[]): void;
-    popup     (params?:any): void;
-    popup  (behavior: string, ...args: any[]): void;
-    progress  (params?:any):void;
-    progress  (behavior: string, ...args: any[]): void;
-    rating    (params?:any):void;
-    rating  (behavior: string, ...args: any[]): void;
-    search    (params?:any):void;
-    search  (behavior: string, ...args: any[]): void;
-    shape     (params?:any):void;
-    shape  (behavior: string, ...args: any[]): void;
-    sidebar   (behavior: string, ...args: any[]): void;
-    sidebar   (params?: any): void;
-    site      (params?:any):void;//check
-    state     (params?:any):void;
-    sticky    (params?:any):void;
-    sticky  (behavior: string, ...args: any[]): void;
-    tab       (params: TabSettings): void;
-    tab  (behavior: string, ...args: any[]): void;
-    transition(params?: any): void;
-    transition(behavior: string, ...args: any[]): void;
-    transition(transition?: string, duration?: string|number, callback?: () => void): void;
-    video     (params?:any):void;
-    visibility(params?:any):void;
-    visit     (params?:any):void;//check
+    accordion (params?: AccordionSettings):JQuery;
+    accordion (behavior: string, ...args: any[]): JQuery;
+    api       (params?: ApiSettings):JQuery;
+    checkbox  (params?: any):JQuery;
+    checkbox  (behavior: string, ...args: any[]): JQuery;
+    colorize  (params?:any):JQuery;
+    dimmer    (params?:any):JQuery;
+    dimmer  (behavior: string, ...args: any[]): JQuery;
+    dropdown  (params?:any):JQuery;
+    dropdown  (behavior: string, ...args: any[]): JQuery;
+    embed     (params?:any):JQuery;
+    embed  (behavior: string, ...args: any[]): JQuery;
+    form      (params?:any):JQuery;
+    modal     (params?: any):JQuery;
+    modal     (behavior: string, ...args: any[]): JQuery;
+    nag       (params?:any):JQuery;
+    nag  (behavior: string, ...args: any[]): JQuery;
+    popup     (params?:any): JQuery;
+    popup  (behavior: string, ...args: any[]): JQuery;
+    progress  (params?:any):JQuery;
+    progress  (behavior: string, ...args: any[]): JQuery;
+    rating    (params?:any):JQuery;
+    rating  (behavior: string, ...args: any[]): JQuery;
+    search    (params?:any):JQuery;
+    search  (behavior: string, ...args: any[]): JQuery;
+    shape     (params?:any):JQuery;
+    shape  (behavior: string, ...args: any[]): JQuery;
+    sidebar   (behavior: string, ...args: any[]): JQuery;
+    sidebar   (params?: any): JQuery;
+    site      (params?:any):JQuery;//check
+    state     (params?:any):JQuery;
+    sticky    (params?:any):JQuery;
+    sticky  (behavior: string, ...args: any[]): JQuery;
+    tab       (params: TabSettings): JQuery;
+    tab  (behavior: string, ...args: any[]): JQuery;
+    transition(params?: any): JQuery;
+    transition(behavior: string, ...args: any[]): JQuery;
+    transition(transition?: string, duration?: string|number, callback?: () => void): JQuery;
+    video     (params?:any):JQuery;
+    visibility(params?:any):JQuery;
+    visit     (params?:any):JQuery;//check
 }
